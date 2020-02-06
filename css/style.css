@@ -1,0 +1,74 @@
+html , body {
+
+
+height: 100%;
+width: 100%;
+padding:1%;
+
+}
+
+/*base code*/
+.absolute-p{
+	
+position: absolute; 
+
+}
+
+.relative-p {
+
+position: relative;
+
+}
+
+/*heder*/
+.green-box{
+
+	height: 100%;
+	width: 100%;
+	background-color: #22B573;
+	border:2px solid #006837;
+}
+
+.green-box1{
+height:65%; 
+width: 45%;
+background-color:#22B573;
+top: 20%;
+right: 35%;
+/*transform: translate(20%,35%);*/
+
+}
+.white-box {
+	height: 72%;
+	width: 45%;
+	background-color: #fff;
+	left: -0.5%;
+	bottom: -0.5%;
+
+
+}
+.navigation{
+	top:6%; 
+	left:5%;
+}
+.navigation-li{
+display: inline-block;
+margin-right: 30px;
+
+}
+.logo {
+top:10%;
+right:5%;
+width:60%;
+}
+.wraper-title{
+top:50%;
+left:50%;
+transform: /*translate(50%,50%)*/ rotate(50deg);
+color: #FFFF00;
+text-transform: uppercase;
+font-size: 150%;
+white-space: nowrap;
+
+
+}
