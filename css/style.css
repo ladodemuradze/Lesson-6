@@ -28,6 +28,12 @@ position: relative;
 	background-color: #22B573;
 	border:2px solid #006837;
 }
+.nav-style{
+font-size: 250%;
+text-transform: uppercase;
+color:white;
+}
+
 
 .green-box1{
 height:65%; 
@@ -70,5 +76,18 @@ text-transform: uppercase;
 font-size: 150%;
 white-space: nowrap;
 
+
+}
+.read-more{
+	bottom: 1%;
+	right: 3%;
+	text-transform: uppercase;
+	color: green;
+}
+.creat{
+	bottom: 1%;
+	text-transform: uppercase;
+	right: 2%;
+    color: #FCEE21;
 
 }
